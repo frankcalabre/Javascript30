@@ -1,0 +1,18 @@
+.keys {
+    display: flex;
+    flex-direction: row;
+    width: 1000px;
+}
+
+.key {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    width: 15%;
+    margin: 5%;
+}
+.playing {
+    border: 2px solid gold;
+}
