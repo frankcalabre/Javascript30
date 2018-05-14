@@ -12,7 +12,20 @@
     text-align: center;
     width: 15%;
     margin: 5%;
+    transition: all 0.07s;
+}
+kbd {
+    display: block;
+    font-size: 40px;
 }
 .playing {
+    transform: scale(1.1);
     border: 2px solid gold;
+    box-shadow: 0 0 10px #ffc600;
+}
+.sound {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #ffc600;
 }
